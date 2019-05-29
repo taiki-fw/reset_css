@@ -7,6 +7,11 @@ box-sizing: border-box;
 ## 主な仕様
 - 全要素border-boxがデフォルト(追記)
     →width,heightを0にしてもpaddingだけ残るようになる点だけ気をつけてください
+- aタグ
+ - font-color:inherit
+ - :visited{color:inherit}
+
+
 後は
 - padding,marginを0に
 - font-size 100%
